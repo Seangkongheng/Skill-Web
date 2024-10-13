@@ -1,0 +1,22 @@
+.question-container {
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+ }
+
+.question-content {
+    padding: 100px 0;
+    margin: 0 auto;
+}
+.question-content h1{
+    color: red;
+    text-align: center;
+}
+
+.question-item {
+    width: 500px;
+    padding: 5px 15px;
+    background-color: rgb(227, 227, 227);
+    border: none;
+    margin-top: 10px;
+}

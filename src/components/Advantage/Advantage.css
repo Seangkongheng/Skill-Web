@@ -1,0 +1,42 @@
+.advantage-item{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.advantage-itim-right-content{
+    margin-top: 10px;
+    width: 300px;
+}
+
+.advantage-image{
+   
+    position: relative;
+}
+.advantage-image img{
+    top: -32%;
+    left: -30%;
+    position: absolute;
+    width: 300px;
+}
+.advantage-itim-right-content p{
+    color: gray;
+    margin-top: 10px;
+}
+.advantage-itim-right-content h3{
+    font-weight: bold;
+}
+.advantage-description h1{
+    width: 300px;
+}
+.advantage-content{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.advantage-image-content{
+        width: 240px;
+        height: 270px;
+        transform: skew(-10deg);
+        background-color: rgb(205, 242, 255); 
+        border-radius: 10px;
+}

@@ -1,0 +1,14 @@
+.footerBottom-container{
+    padding: 0px 100px;
+}
+.footerBottom-content{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-footerBottom ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+}

@@ -1,0 +1,65 @@
+nav{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1.5rem;
+    transition: 0.3s;
+}
+.btn-login{
+    padding: 5px 40px;
+    border-radius: 40px;
+    background-color: white;
+    border: 1px solid  blue;
+    transition: 0.3s;
+}
+
+.btn-register{
+    margin-left: 20px;
+    padding: 5px 40px;
+    background-color: white;
+    border-radius: 40px;
+    transition: 0.3s;
+    border: 1px solid  blue;
+}
+.btn-register:hover{
+    
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+.btn-login:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+nav ul li {
+    margin: 0 15px;
+    padding: 10px 0;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+nav ul li:hover{
+    color: blue;
+    cursor: pointer;
+}
+nav ul li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color:rgb(107, 150, 242);
+    transition: width 0.3s ease;
+}
+nav ul li:hover::after {
+    width: 100%;
+}
